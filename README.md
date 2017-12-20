@@ -5,16 +5,16 @@ Extreme learning machine (ELM) is a modification of single layer feedforward net
 
 ## Learning Algorithm
 
-![ELM](ELM.jpg)
+![ELM]({{site.baseurl}}/ELM.jpg)
 
 
 After performing the tedious backpropagation ritual, we are left with the following equation that predicts output from inputs
 
-![EQ2](eq2.jpg)
+![EQ2]({{site.baseurl}}/eq1.jpg)
 
 Where **h<sup>i</sup>** is the activation of ith hidden neuron computed using
 
-![EQ1](eq1.jpg)
+![EQ1]({{site.baseurl}}/eq2.jpg)
 
 Here, **f** is the activation function like **sigmoid, tanh** etc., **x<sub>j</sub>** is the **j<sup>th</sup>** input, **w<sub>i/<sub>**, j is the connection weight from **j<sup>th</sup>** input to **i<sup>th</sup>** hidden neuron and **b<sub>i</sub>** is the bias term.
 

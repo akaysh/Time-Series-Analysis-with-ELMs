@@ -12,7 +12,7 @@ After performing the tedious backpropagation ritual, we are left with the follow
 
 ![EQ2](eq2.jpg)
 
-Where **h<sup>i</sup> ** is the activation of ith hidden neuron computed using
+Where **h<sup>i</sup>** is the activation of ith hidden neuron computed using
 
 ![EQ1](eq1.jpg)
 
@@ -40,5 +40,12 @@ The value of **W’** can be calculated simply using psuedo (Moore-Penrose) inve
 **W’ = Y . pinv(H)**
 
 This inverse can also be computed using regularized inverse for better generalization.
+
+## About this project
+How to use ELM (Extreme Learning Machines) for time series forecasting. This example demonstrates TS forecasting with ELMs. It uses Python-ELM for implementation of ELMs and sklearn, pandas and matplotlib for data processing and visualization.
+
+ELM is used to predict point estimates while Nearest Neighbour approach is used to predict prediction intervals for the test data values.
+link to paper: https://www.ncbi.nlm.nih.gov/pubmed/25910257
+This gist is only based on 2nd approach of the paper.
 
 
